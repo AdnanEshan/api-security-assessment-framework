@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Security Assessment Specific
+/data/
+/results/
+/evidence/
+/private/
+/findings.json
+/config.json
+*.env
+*.secret
+*.key
+credentials*
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Report outputs
+*.aux
+*.log
+*.out
+*.toc
